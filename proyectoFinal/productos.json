@@ -1,0 +1,38 @@
+[
+    {
+      "nombre": "Taladro" ,
+      "precio": 5000 ,
+      "img"  : "IMG/TALADRO.jpg"
+    },
+    {
+        "nombre": "Amoladora" ,
+        "precio": 6000 ,
+        "img"  : "IMG/amoladora.jpg"
+      },
+      {
+        "nombre": "Destornillador" ,
+        "precio": 500 ,
+        "img"  : "IMG/destornilladores.jpg"
+      },
+      
+      {
+        "nombre": "Sierra" ,
+        "precio": 8000 ,
+        "img"  : "IMG/sierra.jpg"
+      },
+      {
+        "nombre": "Pinza" ,
+        "precio": 500 ,
+        "img"  : "IMG/pinza.jpg"
+      },
+      {
+        "nombre": "Tornillos" ,
+        "precio": 1000 ,
+        "img"  : "IMG/tornillos.jpg"
+      }
+
+      
+
+
+
+]
