@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+    <title>Ferreteria.com</title>
+</head>
+<body>
+
+    <header>
+        <div class="wrapper">
+        <div class="logo"> Ferreteria </div> 
+         <div class="redes-container" >
+        <ul>
+            <li><a href="#" class="facebook"><i class="fab fa-facebook-f "></i></a></li>
+        </ul>
+
+
+         </div>  
+        
+           
+    <nav>
+        <a href="#">Registrar</a>
+        <a href="#">ubicacion</a>
+        <a href="#">sobre nosotros</a>
+        <a href="#">Ver productos</a>
+    </nav>
+</div>
+    </header>
+<div>
+<form>
+      <h2>Registrar</h2>
+     <input  type="text" placeholder="Nombre completo" id="name">
+            <input type="text" placeholder="Correo Electronico" id="email">
+            <input type="reset" value="Registrar" onclick="guardarDatos()" id="btn" >
+</form>
+</div>
+     <div class="card-container" id="card-container"> 
+     </div>
+ 
+
+  <div class="contenedorCarrito" >
+     <h2 id="total"></h2>
+
+  </div>
+  
+    <script src="./index.js"></script>
+    <!--cdn toastify-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--cdn sweetalert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
